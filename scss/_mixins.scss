@@ -1,0 +1,25 @@
+// extends
+
+
+
+//mixins
+
+
+@mixin disp-flex-col () {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+//maps
+
+$paleta:(
+    
+    'uno': #fae1ab,
+    "dos": #f3cc78,
+    "tres": #ddb765,
+    "cuatro": #c59c42,
+)
+
+
+
