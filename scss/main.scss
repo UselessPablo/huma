@@ -1,13 +1,23 @@
-//imports
-$theme-colors: (
-    "primary": #a8dfd7,
-  ) ;
-  $border-radius: 1.8rem !default;
+  
+  
+
 
 
 @import "_vars";
 @import "_fonts";
 @import "_commons";
 @import "_navbar";
-@import "_custom";
 
+$primary: rgb(248, 178, 27);
+$border-radius: 1.8rem !default;
+$secondary: rgb(68, 156, 68);
+$success: rgba(57, 155, 130, 0.274);
+$warning: rgb(236, 152, 152);
+$info: rgb(151, 252, 213);
+$danger:rgb(219, 241, 95);
+$light:rgb(238, 202, 227);
+$modal-header-border-color: $secondary;
+$modal-content-bg: $success;
+$modal-content-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Lobster&family=Lobster+Two&family=Maven+Pro:wght@400;500&family=Quicksand:wght@400;700&family=Roboto:wght@100;400&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

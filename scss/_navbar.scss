@@ -21,7 +21,7 @@
 }
 }
 img{
-    max-height: 40%;
+    max-height: 70%;
 }
 }
 .center_div {
@@ -47,17 +47,14 @@ span {
     ;
 }
 
-h2 {
-    color: white;
-    text-align: center;
-    margin-bottom: 50px;
-}
-button {
-    max-width: auto;
-    height:50px;
-}
+
+
 .margin{
     display: flex;
     justify-content: end;
     align-items: center;
+}
+row {
+    border: solid 1px rgb(255, 145, 0);
+    border-radius: 1.5rem;
 }
